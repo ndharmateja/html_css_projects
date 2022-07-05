@@ -1,0 +1,23 @@
+.header-text {
+  text-align: center;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.white-text {
+  color: white;
+}
+
+li:first-child {
+  color: cyan;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.section-title {
+  font-family: Arial;
+}
