@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  margin: 0.25rem;
+}
+
+.input {
+  border-radius: 0.25rem;
+  border: 1px solid #aaa;
+  padding: 0.5em 0.5em;
+  outline: none;
+  font-size: inherit;
+}
+
+.input:focus {
+  border-color: #0af;
+  box-shadow: 0 0 5px 0 #0af;
+}
+
+.input.input-success {
+  border: 1px solid green;
+}
+
+.input.input-success:focus {
+  border-color: #0f0;
+  box-shadow: 0 0 5px 0 #0f0;
+}
+
+.input.input-error {
+  border: 1px solid red;
+}
+
+.input.input-error:focus {
+  border-color: red;
+  box-shadow: 0 0 5px 0 red;
+}
+
+.input.input-large {
+  font-size: 1.25rem;
+}
+
+.input.input-small {
+  font-size: 0.75rem;
+}
+
+.input:disabled {
+  background-color: #eaeaea;
+}
